@@ -3,23 +3,35 @@
 
 body{
   box-sizing: border-box;
-  margin: auto;
-  width: 1024px;
   background-color: #ede9e0;
 }
 
-header{
-  position: relative;
+.wrapper{
+  margin: auto;
+  width: 1024px;
 }
 
 .body-dog{
   position: absolute;
   top: 0;
-  left: 100px;
-  z-index: 1;
+  left: 140px;
+  z-index: -1;
 }
 
-.head-container,
+.head-container{
+  width: 940px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-main{
+  margin-left: auto;
+}
+
+/*.head-container,
 .promo-block,
 #about,
 #breeds,
@@ -30,7 +42,7 @@ footer{
   max-width: 1026px;
   margin: 0 auto;
   padding: 5px 5px;
-}
+}*/
 
 .row{
   display: flex;
@@ -61,15 +73,16 @@ footer{
 .nav-item,
 .nav-down-item{
   display: inline-block;
+  margin-left: 28px;
 }
 
 
 #about{
-  background-image: url(images/backround_shape.svg);
+  background: url(images/info-bg.jpeg.png);
 }
 
 #info{
-  background-image: url(images/backgroun_pattern.jpg);
+  background: url(images/info-bg.jpeg.png);
 }
 
 #breeds{
@@ -170,6 +183,7 @@ a:hover{
 
 .phone{
   text-decoration: none;
+  margin-left: 20px;
 }
 
 .foto-about{

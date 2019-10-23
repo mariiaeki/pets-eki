@@ -24,57 +24,42 @@ body{
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
 
+.main-container{
+  width: 940px;
+  margin: auto;
 }
 
 .nav-main{
   margin-left: auto;
 }
 
-/*.head-container,
-.promo-block,
-#about,
-#breeds,
-#reviews,
-#info,
-#contacts,
-footer{
-  max-width: 1026px;
-  margin: 0 auto;
-  padding: 5px 5px;
-}*/
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col{
-  display: inline-block;
-}
-
-.col--lg-1{
-  width: 25%;
-}
-
-.col--lg-2{
-  width: 50%;
-}
-
-.col--lg-3{
-  width: 75%;
-}
-
-.col--lg-4{
-  width: 100%;
-}
-
-
-.nav-item,
-.nav-down-item{
+.nav-item{
   display: inline-block;
   margin-left: 28px;
 }
+
+.promo-block{
+  margin-top: 120px;
+  margin-bottom: 160px;
+  margin-left: 355px;
+}
+
+.promo-subtitle{
+  text-transform: uppercase;
+  border-left: 2px solid #510fad;
+  padding-left: 7px;
+}
+
+/*.promo-subtitle p:before{
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 18px;
+  margin-right: 5px;
+  background-color: #510fad;
+}*/
 
 
 #about{
@@ -89,9 +74,7 @@ footer{
 
 }
 
-.line-divider{
 
-}
 
 h1{
   font-family: 'Fira Sans', sans-serif;
@@ -133,7 +116,7 @@ a:hover{
   color: #737274;
 }
 
-.underh{
+.subtitles{
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 50;
@@ -142,8 +125,15 @@ a:hover{
   color: #737274;
 }
 
-.underhdark{
+/*.underhdark{
   color: #b8adc8;
+}*/
+
+
+
+.contact-head{
+  color: #737274;
+  text-transform: uppercase;
 }
 
 .hondark{
@@ -152,15 +142,6 @@ a:hover{
 
 .textondark{
   color: #fff;
-}
-
-.promo-comment{
-  text-transform: uppercase;
-}
-
-.contact-head{
-  color: #737274;
-  text-transform: uppercase;
 }
 
 .nav-main a{

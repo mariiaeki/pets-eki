@@ -97,7 +97,8 @@ body{
 
 
 #breeds,
-#reviews{
+#reviews,
+#info{
   display: flex;
   width: 1024px;
   margin: auto;
@@ -208,6 +209,12 @@ text-align: center;
 
 .inflo-block:hover{
   box-shadow: 6px 0 40px rgba(0,0,0,0.2);
+}
+
+.info-block p,
+.info-block a{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1{

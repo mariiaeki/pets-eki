@@ -101,18 +101,24 @@ body{
 #reviews,
 #info,
 #about,
-#contacts{
+#contacts,
+footer{
   display: flex;
   width: 1024px;
   margin: auto;
   margin-bottom: 100px;
 }
 
+footer{
+  margin-bottom: 20px;
+}
+
 .about-inner,
 .breeds-inner,
 .reviews-inner,
 .info-inner,
-.contacts-inner{
+.contacts-inner,
+.footer-inner{
   width: 940px;
   margin: 0 auto;
 }
@@ -208,6 +214,7 @@ text-align: center;
   margin-right: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  overflow: hidden;
   box-shadow: 6px 0 20px rgba(0,0,0,0.6);
 }
 
@@ -228,6 +235,26 @@ text-align: center;
 
 .contact-part{
   width: 50%;
+}
+
+.footer-inner{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-top: 2px solid #d5d1ca;
+}
+
+.nav-down-item{
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.nav-down ul{
+  padding: 0;
+}
+
+footer .social-links{
+  margin-left: auto;
 }
 
 h1{

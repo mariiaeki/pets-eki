@@ -35,24 +35,9 @@ body{
 }
 
 .promo-block{
-  width: 940px;
   margin-top: 120px;
   margin-bottom: 260px;
   margin-left: 400px;
-}
-
-.promo-subtitle{
-  text-transform: uppercase;
-  border-left: 2px solid #510fad;
-  padding-left: 7px;
-}
-
-.under-title{
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  letter-spacing: 50;
-  line-height: 40px;
-  color: #b8adc8;
 }
 
 /*.promo-subtitle p:before{
@@ -93,12 +78,6 @@ body{
   background-image: url(images/backround-wave-down.png);
 }
 
-.about-inner,
-.breeds-inner{
-  width: 940px;
-  margin: auto;
-}
-
 .about-content{
   display: flex;
   align-items: center;
@@ -117,15 +96,24 @@ body{
 }
 
 
-#breeds{
+#breeds,
+#reviews{
   display: flex;
   width: 1024px;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
-.breeds-title-block{
-  margin-left: 358px;
+.about-inner,
+.breeds-inner,
+.reviews-inner,
+.info-inner{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.breeds-title-block h2{
+  text-align: center;
 }
 
 .breeds-content{
@@ -148,44 +136,113 @@ body{
   margin-left: 15px;
 }
 
-.breed-link{
+.breed-link a{
+  font-size: 14px;
   text-decoration: none;
   margin-left: 155px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
+.reviews-block{
+  display: flex;
+  align-items: center;
+}
+
+.reviews-title h2{
+text-align: center;
+}
+
+.review-quote{
+  display: block;
+  /*display: flex;
+  align-items: center;
+  flex-flow: row wrap;*/
+}
+
+.review-quote h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.review-quote p{
+  margin-top: 0px;
+}
+
+.reviews-link-block {
+  margin-left: 480px;
+}
+
+.review-photo{
+  display: block;
+}
 
 #info{
   background: url(images/info-bg.jpeg.png);
 }
 
+.info-inner{
+  display: flex;
+  align-items: center;
+}
 
+.info-text{
+  width: 50%;
+}
 
+.info-links-block{
+  display: flex;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.info-block{
+  background-color: white;
+  width: 220px;
+  height: 290px;
+  margin-right: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 6px 0 20px rgba(0,0,0,0.6);
+}
+
+.inflo-block:hover{
+  box-shadow: 6px 0 40px rgba(0,0,0,0.2);
+}
 
 h1{
   font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 48px;
 }
 
 h2{
   font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 36px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 40px;
 }
 
 h3{
   font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   font-size: 24px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 40px;
 }
 
 p{
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 30px;
 }
 
 a{
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
   color: #510fad;
 }
 
@@ -204,9 +261,34 @@ a:hover{
 .subtitles{
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 30px;
-  font-weight: medium;
+  font-weight: 500;
+  color: #737274;
+}
+
+.promo-subtitle{
+  text-transform: lowercase;
+  border-left: 2px solid #510fad;
+  padding-left: 7px;
+  font-weight: 500;
+}
+
+.under-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 40px;
+  color: #b8adc8;
+}
+
+.reviews-time,
+.reviews-link{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  line-height: 30px;
   color: #737274;
 }
 
@@ -257,16 +339,9 @@ a:hover{
 
 }
 
-.review-foto{
+.reviews-photo{
+  margin-top: 30px;
   box-shadow: -6px 0 40px rgba(0,0,0,0.6);
-}
-
-.info-block-img{
-  box-shadow: 6px 0 20px rgba(0,0,0,0.6);
-}
-
-.inflo-block-img:hover{
-  box-shadow: 6px 0 40px rgba(0,0,0,0.2);
 }
 
 .sprite {

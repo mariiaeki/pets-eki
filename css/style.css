@@ -41,15 +41,6 @@ body{
   margin-left: 370px;
 }
 
-/*.promo-subtitle p:before{
-  content: '';
-  display: inline-block;
-  width: 2px;
-  height: 18px;
-  margin-right: 5px;
-  background-color: #510fad;
-}*/
-
 #about{
   position: relative;
   display: flex;
@@ -166,9 +157,6 @@ text-align: center;
 
 .review-quote{
   display: block;
-  /*display: flex;
-  align-items: center;
-  flex-flow: row wrap;*/
 }
 
 .review-quote h3{
@@ -186,6 +174,7 @@ text-align: center;
 
 .review-photo{
   display: block;
+  border-radius: 10px;
 }
 
 #info{
@@ -212,20 +201,28 @@ text-align: center;
   width: 220px;
   height: 290px;
   margin-right: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 6px 0 20px rgba(0,0,0,0.6);
 }
 
-.inflo-block:hover{
-  box-shadow: 6px 0 40px rgba(0,0,0,0.2);
+.info-block:hover {
+  box-shadow: 6px 0 40px rgba(0,0,0,0.8);
 }
 
 .info-block p,
 .info-block a{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.next-arrow:after{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  margin-left: 10px;
+  background-image: url(images/arrow_next.png);
 }
 
 .contact-block{
@@ -339,12 +336,6 @@ a:hover{
   color: #737274;
 }
 
-/*.underhdark{
-  color: #b8adc8;
-}*/
-
-
-
 .contact-head{
   color: #737274;
   text-transform: uppercase;
@@ -382,12 +373,14 @@ a:hover{
 }
 
 .foto-about{
+  border-radius: 10px;
+  overflow: hidden;
   box-shadow: -20px 0 50px rgba(0,0,0,0.5);
-
 }
 
 .reviews-photo{
   margin-top: 30px;
+  border-radius: 10px;
   box-shadow: -6px 0 40px rgba(0,0,0,0.6);
 }
 

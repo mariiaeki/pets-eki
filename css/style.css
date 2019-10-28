@@ -14,11 +14,12 @@ body{
 .body-dog{
   position: absolute;
   top: 0;
-  left: 140px;
+  left: 160px;
   z-index: -1;
 }
 
 .head-container{
+  width: 940px;
   margin: auto;
   margin-top: 10px;
   display: flex;
@@ -37,7 +38,7 @@ body{
 .promo-block{
   margin-top: 120px;
   margin-bottom: 260px;
-  margin-left: 400px;
+  margin-left: 370px;
 }
 
 /*.promo-subtitle p:before{
@@ -98,7 +99,9 @@ body{
 
 #breeds,
 #reviews,
-#info{
+#info,
+#about,
+#contacts{
   display: flex;
   width: 1024px;
   margin: auto;
@@ -108,7 +111,8 @@ body{
 .about-inner,
 .breeds-inner,
 .reviews-inner,
-.info-inner{
+.info-inner,
+.contacts-inner{
   width: 940px;
   margin: 0 auto;
 }
@@ -215,6 +219,15 @@ text-align: center;
 .info-block a{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.contact-block{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact-part{
+  width: 50%;
 }
 
 h1{
